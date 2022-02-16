@@ -8,6 +8,10 @@ const Header = () => {
         <header className={'header'}>
             <NavLink to={'/'}>Home</NavLink>
             <NavLink to={'/movies'}>Movies</NavLink>
+            <div className={'user'}>
+                <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user"/>
+                <p>Serhii Hrynchyshyn</p>
+            </div>
         </header>
     );
 };

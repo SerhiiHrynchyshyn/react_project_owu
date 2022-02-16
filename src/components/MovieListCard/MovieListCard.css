@@ -1,0 +1,39 @@
+.card {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 3px solid white;
+    box-shadow: transparent;
+    transition: all ease .2s;
+}
+
+.movie img {
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.movie > div {
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    background: black;
+    opacity: .9;
+    color: white;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.card:hover {
+    z-index: 9999;
+    transform: scale(1.1);
+}

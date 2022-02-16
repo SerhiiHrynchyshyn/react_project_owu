@@ -4,6 +4,7 @@ import {genreService} from "../../services";
 
 const initialState = {
     genres: [],
+    status: null
 }
 
 export const getAllGenres = createAsyncThunk(
@@ -12,7 +13,7 @@ export const getAllGenres = createAsyncThunk(
         try {
             return await genreService.getAll()
         } catch (e) {
-            return console.log(e)
+            return console.log(e.message)
         }
     }
 )
