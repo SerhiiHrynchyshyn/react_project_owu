@@ -1,10 +1,10 @@
 import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
+import {useParams} from "react-router-dom";
 
 import './MovieList.css';
 import {MovieListCard} from "../MovieListCard/MovieListCard";
 import {getByGenre, getMovies, MOVIE__PAGE} from "../../store/slices/movieSlice";
-import {useParams} from "react-router-dom";
 
 const MovieList = () => {
 

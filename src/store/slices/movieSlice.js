@@ -55,4 +55,4 @@ const movieSlice = createSlice({
 const movieReducer = movieSlice.reducer;
 export default movieReducer;
 
-export const {MOVIE__PAGE, MOVIE__GENRE} = movieSlice.actions;
+export const {MOVIE__PAGE} = movieSlice.actions;
