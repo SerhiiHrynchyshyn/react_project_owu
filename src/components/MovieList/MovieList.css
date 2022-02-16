@@ -5,3 +5,23 @@
     justify-content: space-around;
     gap: 20px;
 }
+
+.movie-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-btn button {
+    margin: 15px;
+    padding: 2px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: .3;
+    cursor: default;
+}

@@ -1,4 +1,5 @@
 ul {
+    max-width: 120px;
     list-style-type: none;
 }
 
